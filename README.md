@@ -63,3 +63,26 @@ This project demonstrates supervised learning, telecom traffic analytics, featur
 - Add XGBoost/LightGBM comparison.
 - Add anomaly detection for suspicious traffic.
 - Export the classifier as a small API with FastAPI.
+
+## Results preview
+
+This experiment classifies synthetic network traffic flows into several traffic categories using feature engineering and a Random Forest classifier.
+
+### Classification metrics
+
+| Metric | Value |
+|---|---:|
+| Accuracy | 1.000 |
+| Macro F1-score | 1.000 |
+
+The dataset is synthetic and intentionally structured to demonstrate a clean and reproducible machine learning pipeline.  
+Future versions can be extended with real packet captures, Wireshark exports or public network traffic datasets.
+
+### Confusion matrix
+
+![Confusion matrix](docs/assets/confusion_matrix.png)
+
+### Feature importance
+
+![Feature importance](docs/assets/feature_importance.png)
+
